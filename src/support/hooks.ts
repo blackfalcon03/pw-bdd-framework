@@ -3,10 +3,10 @@ import { World } from './world';
 
 setWorldConstructor(World);
 
-Before(async function(this: World) {
+Before(async function (this: World) {
     await this.init();
 });
 
-After(async function(this: World) {
+After(async function (this: World) {
     await this.cleanup();
 });

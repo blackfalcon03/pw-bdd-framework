@@ -1,35 +1,35 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Debug Current Test",
-      "program": "${workspaceFolder}/node_modules/@cucumber/cucumber/bin/cucumber-js",
-      "args": [
-        "${relativeFile}",
-        "--require-module",
-        "ts-node/register",
-        "--require",
-        "src/steps/**/*.ts"
-      ],
-      "console": "integratedTerminal",
-      "internalConsoleOptions": "neverOpen"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Debug All Tests",
-      "program": "${workspaceFolder}/node_modules/@cucumber/cucumber/bin/cucumber-js",
-      "args": [
-        "--require-module",
-        "ts-node/register",
-        "--require",
-        "src/steps/**/*.ts",
-        "src/features/**/*.feature"
-      ],
-      "console": "integratedTerminal",
-      "internalConsoleOptions": "neverOpen"
-    }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Current Test",
+            "program": "${workspaceFolder}/node_modules/@cucumber/cucumber/bin/cucumber-js",
+            "args": [
+                "${relativeFile}",
+                "--require-module",
+                "ts-node/register",
+                "--require",
+                "src/steps/**/*.ts"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug All Tests",
+            "program": "${workspaceFolder}/node_modules/@cucumber/cucumber/bin/cucumber-js",
+            "args": [
+                "--require-module",
+                "ts-node/register",
+                "--require",
+                "src/steps/**/*.ts",
+                "src/features/**/*.feature"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
 }

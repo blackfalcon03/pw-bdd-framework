@@ -109,6 +109,8 @@ docker run pw-bdd-framework
 3. Push to the branch
 4. Create a Pull Request
 
+For GitHub Copilot users, please refer to our [Copilot Guidelines](.github/docs/COPILOT.md) for framework-specific conventions and best practices.
+
 ## License
 
 This project is licensed under the ISC License.
