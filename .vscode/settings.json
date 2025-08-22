@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "cucumber.features": [
+    "src/features/**/*.feature"
+  ],
+  "cucumber.glue": [
+    "src/steps/**/*.ts"
+  ],
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "node_modules": true,
+    "dist": true,
+    "allure-results": true,
+    "allure-report": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "allure-results": true,
+    "allure-report": true
+  }
+}
